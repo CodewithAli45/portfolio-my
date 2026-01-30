@@ -1,12 +1,11 @@
-import React from 'react';
-import './styles/App.css';
-import { Home } from './components/Home'
+import './App.css';
 
-export function App() {
+function App() {
   return (
-    <div>
-      <Home />
+    <div className="welcome-container">
+      <h1 className="welcome-text">Welcome to My Portfolio</h1>
     </div>
-  )
+  );
 }
 
+export default App;
